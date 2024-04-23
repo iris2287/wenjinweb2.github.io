@@ -10,7 +10,7 @@ var Model = {} ;
       if(UI.bookFace.length < Model.books.length){
          UI.log($('book'),'书没下载完，等会儿！') ;
         setTimeout(function(){
-          UI.log($('book'),'计算思维系列课程@masterLijh') ; 
+          UI.log($('book'),'计算思维系列课程@YanLiaoWenJin') ; 
         },2000);
         
         return ;
@@ -31,7 +31,7 @@ var Model = {} ;
       if(UI.bookFace.length < Model.books.length){
         UI.log($('book'),'书没下载完，等会儿！') ;
         setTimeout(function(){
-          UI.log($('book'),'计算思维系列课程@masterLijh') ; 
+          UI.log($('book'),'计算思维系列课程@YanLiaoWenJin') ; 
         },2000);
         return ;
       }
