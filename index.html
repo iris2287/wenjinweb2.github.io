@@ -1,43 +1,43 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh">
  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width , initial-scale=1">
+  <!-- 
+   增加这句后，可以看到浏览器的DevTools面板的模拟移动设备状态的变化
+  -->
   <link rel="stylesheet" href="myCSS.css" > 
-  <script src="myInit.js"> </script>
-  <title> "剑桥雅思系列图书" </title>
+  
+  <title>Welcome to myCTApp</title>
  </head> 
  <body>
   <header>
-	  <p id="book">
-      剑桥雅思系列课程@Yanlaiowenjin
+	<p id="lessonName" >
+     《计算思维和语言学习》
     </p> 
-  </header>
   <nav>
-    海量经典正向您传送过来，请耐心等等...
+   <ol id ="listMenus">
+ 
+   </ol>
   </nav>
-  <main id = 'main'>
-    <img  id = "bookFace">
-    <div id ="showBook">
-      
-      <div id = "mediaUI">
-       <button id="prevMedia">Prev</button> 
-       <button id="playPause">Play | Pause</button> 
-       <button id="duration">000</button>
-       <button id="nextMedia">Next</button> 
-      </div>
-      <video id ="myV" ></video>
-      <ol id = "bookMenu"></ol>
-      <audio id = "myA"></audio> 
+  </header>
+
+   <main>
+    <img id="bookPage" src="lesson/CS.jpg">
+    <div id="logoFace">
+      <img id="teacherFace" src="myface/0.jpg">
+	  <p id="teaching">
+	   ‘读好书、练思维、勤编程’ @masterLijh 计算思维系列课程
+	  </p>
     </div>
-  </main> 
+   </main>
 
   <footer> 
-   <p id="statusInfo">
-    CopyRight from 颜廖文瑾 江西科技师范大学 2022--2025
-	 </p>
+   	<p id="footerInfo">
+	CopyRight from 李健宏 江西科技师范大学 2022--2025
+	</p>
   </footer> 
-
+  
  <script src="myJs.js" > 
  </script>
  </body>
